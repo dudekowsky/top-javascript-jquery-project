@@ -1,0 +1,26 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  width: 512px;
+  height: 512px;
+  /*32*16 = 706 */
+
+}
+.etchblock {
+  background: blue;
+  float: left;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border: solid 1px black;
+  padding: 2px;
+  margin: 1px;
+}
+.etching{
+  background: red;
+}
+.etched {
+  background: black;
+  opacity: 0.0;
+}
